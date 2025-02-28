@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: bigdata_actividad1
+Version: 0.0.1
+Author: Andres Callejas
+Author-email: 
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: requests
+Dynamic: author
+Dynamic: requires-dist
