@@ -1,4 +1,4 @@
-name: Actividad1
+name: Actividad 1
 
 on:
   push:
@@ -10,6 +10,7 @@ jobs:
     permissions:
       contents: write
 
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -18,30 +19,23 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.9.2'
-      
       - name: paso1 - crea entorno virtual
         run: python -m venv venv
-
       - name: paso2 - activar entorno virtual
-        run: .\venv\Scripts\activate
-
+        run: ./venv/Scripts/activate   
       - name: paso3 - actualizar pip
         run: pip install --upgrade pip
-
       - name: paso4 - instalar dependencias
         run: pip install -e .
-
       - name: paso5 - Ejecutar ingestion
         run: python src/BigData/ingestion.py 
-
       - name: paso6 - Ejecutar Auditoria
         run: python src/BigData/audit_script.py
-
       - name: paso7 - Ejecutar datos sucios
         run: python src/BigData/data_sucio.py
-
       - name: paso8 - Ejecutar Limpieza
         run: python src/BigData/cleaning.py
+
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
