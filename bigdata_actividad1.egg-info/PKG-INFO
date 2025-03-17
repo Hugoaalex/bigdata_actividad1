@@ -1,8 +1,11 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.2
 Name: bigdata_actividad1
 Version: 0.0.1
-Author: Andres Callejas
+Author: Hugo Carvajal
 Author-email: 
 Requires-Dist: pandas
 Requires-Dist: openpyxl
 Requires-Dist: requests
+Requires-Dist: faker
+Dynamic: author
+Dynamic: requires-dist
