@@ -36,11 +36,10 @@ jobs:
       - name: paso8 - Ejecutar Limpieza
         run: python src/BigData/cleaning.py
 
-
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-           commit_message: generación informe prueba json
+          commit_message: generación informe prueba json
           commit_user_name: Hugo Carvajal [GitHub Actions]
           commit_user_email: Hugo.carvajal@est.iudigital.edu.co
           commit_author: Hugo Carvajal <Hugo.carvajal@est.iudigital.edu.co>
