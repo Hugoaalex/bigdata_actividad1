@@ -8,3 +8,13 @@
 2025-03-17 01:49:49,385 - INFO - Registros duplicados: 20
 2025-03-17 01:49:49,401 - INFO - Registros después de la limpieza: 199
 2025-03-17 01:49:49,401 - INFO - Archivo cleaned_data.csv generado correctamente.
+2025-03-29 12:01:18,850 - INFO - Registros iniciales: 219
+2025-03-29 12:01:18,850 - INFO - Valores nulos detectados: 85
+2025-03-29 12:01:18,850 - INFO - Registros duplicados: 20
+2025-03-29 12:01:18,850 - INFO - Registros después de la limpieza: 199
+2025-03-29 12:01:18,850 - INFO - Archivo cleaned_data.csv generado correctamente.
+2025-03-29 12:01:19,507 - INFO - Registros iniciales: 219
+2025-03-29 12:01:19,507 - INFO - Valores nulos detectados: 85
+2025-03-29 12:01:19,507 - INFO - Registros duplicados: 20
+2025-03-29 12:01:19,507 - INFO - Registros después de la limpieza: 199
+2025-03-29 12:01:19,507 - INFO - Archivo cleaned_data.csv generado correctamente.
