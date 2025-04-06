@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="26.2.8">
+  <diagram name="Modelo de Datos - Fruits" id="modelodata">
+    <mxGraphModel dx="874" dy="431" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Tabla: fruits&#xa;&#xa;id               : INTEGER (PK)&#xa;name             : TEXT&#xa;genus            : TEXT&#xa;family           : TEXT&#xa;order            : TEXT&#xa;carbohydrates    : REAL&#xa;protein          : REAL&#xa;fat              : REAL&#xa;calories         : INTEGER&#xa;sugar            : REAL" style="shape=swimlane;whiteSpace=wrap;html=1;fontSize=14;spacingTop=178;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="151" y="102" width="423" height="258" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
